@@ -42,7 +42,7 @@ You will need to flash Android on both A & B partitions. Open the terminal insid
 
 It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>droidian-rootfs-api28gsi-arm64.zip.</b> Double click on the zip and enter inside the file <b>setup.sh.</b> Replace <b>8GB to 48GB.</b> Save and close the file. Then press <b>Update.</b> Make sure to do this everytime you download the latest droidian-rootfs-api28gsi-arm64.zip.
 
-<n>ATTENTION: If you are using Ubuntu 20.04 you will need the latest fastboot, otherwise you won't be able to flash Droidian. <b>
+<b>ATTENTION: If you are using Ubuntu 20.04 you will need the latest fastboot, otherwise you won't be able to flash Droidian. </b>
 1. Download SDK Platform Tools for Linux from https://developer.android.com/studio/releases/platform-tools
 2. Place your Droidian and TWRP files inside the downloaded folder. 
 3. ```./``` infront of fastboot will be require
