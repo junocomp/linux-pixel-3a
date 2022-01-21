@@ -64,7 +64,7 @@ It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>dr
 ### SSH
 It is recommended to setup SSH right after connecting to WIFI. Make sure your phone is connected with a USB cable.
 
-```ssh droidian@192.168.0.48```
+```ssh droidian@10.15.19.82```
 
 ### Upgrading to Bookworm
 As of now there are no images for Bookworm (coming soon). Is recommended to upgrade from Bullseye.
@@ -125,7 +125,7 @@ Manjaro ARM is a bit slower than Droidian and it has the same known issues.
 ### Adjust Resolution
 Make sure your phone is connected to a USB cable.
 
-```ssh manjaro@192.168.0.48```
+```ssh manjaro@10.15.19.82```
 <br>```sudo nano /usr/share/phosh/phoc.ini```
 
 Add 
