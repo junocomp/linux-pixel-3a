@@ -100,7 +100,7 @@ As of now there are no images for Bookworm (coming soon). Is recommended to upgr
 3. Waydroid installs but is very slow.
 4. Finger reader does not work (on all Droidian devices)
 
-### Add Staging repo (optional)
+### Add Staging Repo (Optional)
 
 Change release to <b>bullseye</b> or <b>bookworm</b> depending on your release version. Add:
 
