@@ -31,3 +31,12 @@ You will need to flash Android on both A & B partitions. Open the terminal insid
 6. Flash A partition
 7. ```fastboot -aa```
 8. Follow steps 2 to 5 again
+
+## Droidian
+<p>Download the following files from https://github.com/droidian-images/rootfs-api28gsi-all/releases
+<br> This will install Debian Bullseye</p>
+
+1. droidian-rootfs-api28gsi-arm64.zip
+2. droidian-devtools-arm64.zip
+3. droidian-adaptation-google-sargo-arm64.zip
+
