@@ -2,8 +2,8 @@
 Instructions on how to install Droidian, Manjaro ARM and UBPorts on Google Pixel 3a and 3a XL (Bonito & Sargo)
 
 ## Android 9
-For all 3 systems, Android 9 is required. 
-BEWARE: Installing and downgrading to Android 9 will wipe your entire phone.
+<p>For all 3 systems, Android 9 is required. 
+<br>BEWARE: Installing and downgrading to Android 9 will wipe your entire phone.</p>
 
 ## Download
 <p>TWRP (latest .img) - https://dl.twrp.me/sargo/
