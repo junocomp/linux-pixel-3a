@@ -59,10 +59,34 @@ It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>dr
 9. When is done reboot ```slot A```
 10. The phone will restart 2 or 3 times. 
 11. Password: ```1234```
+12. Open Software and upgrade system.
    
 ### SSH
 It is recommended to setup SSH right after connecting to WIFI. 
 
 ```ssh droidian@192.168.0.48```
 
+### Upgrading to Bookworm
+As of now there are no images for Bookworm (coming soon). Is recommended to upgrade from Bullseye.
 
+1. Ensure your system is up-to-date (you can use the Software app)
+2. Install the ```droidian-upgrade-bookworm``` package:
+
+```sudo apt install droidian-upgrade-bookworm```
+
+3. Fetch the new repositories:
+
+```sudo apt update```
+```sudo apt upgrade```
+
+4. Finally, do a standard dist-upgrade (note: it would be best doing this on-device):
+
+```sudo apt update```
+```sudo apt dist-upgrade```
+
+5. Clean up and reboot
+
+```sudo apt clean```
+```sudo reboot -f```
+
+6. Once the system reboots, open the Software app, go to the Updates tab -> Search for updates again -> Install the remaining updates
