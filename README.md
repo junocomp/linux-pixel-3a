@@ -13,11 +13,11 @@ Flash Android 9
 1. Enable OEM unlock in the Developer options under device Settings, if present.
 2. Connect the device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
-adb reboot bootloader
+```adb reboot bootloader```
   You can also boot into fastboot mode via a key combination:
   With the device powered off, hold Volume Down + Power.
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
-fastboot devices
+```fastboot devices```
 5. Now type the following command to unlock the bootloader:
-fastboot flashing unlock
+```fastboot flashing unlock```
   If the device doesn’t automatically reboot, reboot it. It should now be unlocked.
