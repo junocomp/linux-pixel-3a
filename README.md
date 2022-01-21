@@ -94,7 +94,19 @@ As of now there are no images for Bookworm (coming soon). Is recommended to upgr
 
 6. Once the system reboots, open the Software app, go to the Updates tab -> Search for updates again -> Install the remaining updates
 
+### Known Issues
+1. Camera & Flashlight do not work
+2. Battery life is short (better on Pixel 3a XL)
+3. Waydroid installs but is very slow.
+4. Finger reader does not work (on all Droidian devices)
+
+### Add Staging repo (optional)
+
+Change release to <b>bullseye</b> or <b>bookworm</b> depending on your release version. Add:
+
+```deb http://staging.repo.droidian.org/ release main```
+
+to ```/etc/apt/source.list```
+
 ### Join Droidian on Telegram
 https://t.me/droidianlinux
-
-
