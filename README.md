@@ -149,3 +149,16 @@ If keeps asking for GNUPG keys, just repopulate and try to install the packages 
 
 ### Join Manjaro-ARM on Telegram
 https://t.me/manjaroonhalium
+
+## UBPorts
+UBPorts has the most amount of support for Sargo & Bonito
+
+https://devices.ubuntu-touch.io/device/sargo/
+
+### Install
+Check the UBPorts page on how to use their installer
+
+https://devices.ubuntu-touch.io/installer/?pk_vid=7745a6d54b073d6c1642764968dafd25
+
+### Join UBPorts on Telegram
+https://t.me/ubports
