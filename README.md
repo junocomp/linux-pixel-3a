@@ -6,8 +6,8 @@ For all 3 systems, Android 9 is required.
 BEWARE: Installing and downgrading to Android 9 will wipe your entire phone.
 
 ## Download
-TWRP (latest .img) - https://dl.twrp.me/sargo/
-Android 9 (choose the latest 9.0 link) - https://developers.google.com/android/images
+<p>TWRP (latest .img) - https://dl.twrp.me/sargo/
+<br>Android 9 (choose the latest 9.0 link) - https://developers.google.com/android/images </p>
 
 ## Flash Android 9
 1. Enable OEM unlock in the Developer options under device Settings, if present.
