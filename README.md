@@ -93,3 +93,8 @@ As of now there are no images for Bookworm (coming soon). Is recommended to upgr
 ```sudo reboot -f```
 
 6. Once the system reboots, open the Software app, go to the Updates tab -> Search for updates again -> Install the remaining updates
+
+### Join Droidian on Telegram
+https://t.me/droidianlinux
+
+
