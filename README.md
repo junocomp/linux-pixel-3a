@@ -1,15 +1,15 @@
 # Linux on Google Pixel 3a (Bonito &amp; Sargo) 
 Instructions on how to install Droidian, Manjaro ARM and UBPorts on Google Pixel 3a and 3a XL (Bonito & Sargo)
 
-##Android 9
+## Android 9
 For all 3 systems, Android 9 is required. 
 BEWARE: Installing and downgrading to Android 9 will wipe your entire phone.
 
-##Download
+## Download
 TWRP (latest .img) - https://dl.twrp.me/sargo/
 Android 9 (choose the latest 9.0 link) - https://developers.google.com/android/images
 
-##Flash Android 9
+## Flash Android 9
 1. Enable OEM unlock in the Developer options under device Settings, if present.
 2. Connect the device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
