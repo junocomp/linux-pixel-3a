@@ -40,3 +40,4 @@ You will need to flash Android on both A & B partitions. Open the terminal insid
 2. droidian-devtools-arm64.zip
 3. droidian-adaptation-google-sargo-arm64.zip
 
+It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>droidian-rootfs-api28gsi-arm64.zip.</b> Double click on the zip and enter inside the file <b>setup.sh.</b> Replace <b>8GB to 48GB.</b> Save and close the file. Then press <b>Update.</b> Make sure to do this everytime you download the latest droidian-rootfs-api28gsi-arm64.zip.
