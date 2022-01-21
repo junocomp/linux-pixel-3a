@@ -62,7 +62,7 @@ It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>dr
 12. Open Software and upgrade system.
    
 ### SSH
-It is recommended to setup SSH right after connecting to WIFI. 
+It is recommended to setup SSH right after connecting to WIFI. Make sure your phone is connected with a USB cable.
 
 ```ssh droidian@192.168.0.48```
 
@@ -110,3 +110,33 @@ to ```/etc/apt/source.list```
 
 ### Join Droidian on Telegram
 https://t.me/droidianlinux
+
+## Manjaro ARM
+Manjaro ARM is a bit slower than Droidian and it has the same known issues.
+
+### Install
+1. Download ```Manjaro-ARM-phosh-halium-9.zip``` or ```Manjaro-ARM-nemomobile-halium-9.zip``` from https://github.com/manjaro-libhybris/image-ci/releases
+2. Download the Sargo files for Manjaro ARM from https://github.com/giovannicaligaris/linux-pixel-3a/releases/tag/v1
+3. Add your ```twrp.img``` inside the downloaded folder
+4. Run ```./flash-all.sh```
+5. Head to ```Advanced``` and sideload Manjaro-ARM-*.zip
+6. ```adb sideload Manjaro-ARM-**-halium-9-**.zip```
+7. Sideload might get stuck at 47%, just wait patiently
+8. Reboot the phone after sideloading
+9. Password: ```123456```
+
+### Adjust Resolution
+Make sure your phone is connected to a USB cable.
+
+```ssh manjaro@192.168.0.48```
+
+```sudo nano /usr/share/phosh/phoc.ini```
+
+Add 
+
+```[output:HWCOMPOSER-1]```
+<br>```scale = 3```
+
+Save, exit and reboot
+
+```sudo reboot -f```
