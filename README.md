@@ -14,8 +14,7 @@ BEWARE: Installing and downgrading to Android 9 will wipe your entire phone.
 2. Connect the device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```adb reboot bootloader```
-   You can also boot into fastboot mode via a key combination:
-   With the device powered off, hold Volume Down + Power.
+   You can also boot into fastboot mode via a key combination: With the device powered off, hold ```Volume Down + Power```
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```fastboot devices```
 5. Now type the following command to unlock the bootloader:
