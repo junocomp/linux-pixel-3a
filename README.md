@@ -77,16 +77,19 @@ As of now there are no images for Bookworm (coming soon). Is recommended to upgr
 3. Fetch the new repositories:
 
 ```sudo apt update```
+
 ```sudo apt upgrade```
 
 4. Finally, do a standard dist-upgrade (note: it would be best doing this on-device):
 
 ```sudo apt update```
+
 ```sudo apt dist-upgrade```
 
 5. Clean up and reboot
 
 ```sudo apt clean```
+
 ```sudo reboot -f```
 
 6. Once the system reboots, open the Software app, go to the Updates tab -> Search for updates again -> Install the remaining updates
