@@ -17,6 +17,5 @@ BEWARE: Installing and downgrading to Android 9 will wipe your entire phone.
    You can also boot into fastboot mode via a key combination: With the device powered off, hold ```Volume Down + Power```
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```fastboot devices```
-5. Now type the following command to unlock the bootloader:
-```fastboot flashing unlock```
-  If the device doesn’t automatically reboot, reboot it. It should now be unlocked.
+5. Now type the following command to unlock the bootloader: ```fastboot flashing unlock``` 
+6. If the device doesn’t automatically reboot, reboot it. It should now be unlocked.
