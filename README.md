@@ -6,7 +6,7 @@ Instructions on how to install Droidian, Manjaro ARM and UBPorts on Google Pixel
    <br><b>BEWARE:</b> Installing and downgrading to Android 9 will wipe your entire phone.</p>
 
 ## Download
-<p>TWRP (latest .img) - https://dl.twrp.me/sargo/
+<p>TWRP (latest .img - rename it twrp.img) - https://dl.twrp.me/sargo/
 <br>Android 9 (choose the latest 9.0 link) - https://developers.google.com/android/images </p>
 
 ## Unlock OEM
