@@ -96,6 +96,7 @@ As of now there are no images for Bookworm (coming soon). Is recommended to upgr
 2. Battery life is short (better on Pixel 3a XL)
 3. Waydroid installs but is very slow.
 4. Finger reader does not work (on all Droidian devices)
+5. Some KDE flatpak apps won't launch
 
 ### Add Staging Repo (Optional)
 
