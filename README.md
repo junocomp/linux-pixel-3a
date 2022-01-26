@@ -1,3 +1,5 @@
+<p align="center"><img src="https://user-images.githubusercontent.com/26255347/151196900-1128790c-eb07-4f7c-9966-d93cf9f381d6.png" width=40% height=40%></p>
+
 # Linux on Google Pixel 3a (Bonito &amp; Sargo) 
 Instructions on how to install Droidian, Manjaro ARM and UBPorts on Google Pixel 3a and 3a XL (Bonito & Sargo)
 
