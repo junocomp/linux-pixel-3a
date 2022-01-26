@@ -141,7 +141,7 @@ Save, exit and reboot
 ### Updating
 For some reason Manjaro does not seem to remember repo keys and it won't allow to update or install packages. Install the following:
 
-```sudo pacman-key --init && sudo pacman-key --populate archlinuxarm manjaro-arm```
+```sudo pacman-key --init && sudo pacman-key --populate```
 <br>```sudo pacman -S gnupg archlinuxarm-keyring yay libpamac-flatpak-plugin iio-sensor-proxy iio-utils libhandy```
 
 If keeps asking for GNUPG keys, just repopulate and try to install the packages that you need
