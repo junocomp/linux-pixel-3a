@@ -115,12 +115,12 @@ https://t.me/droidianlinux
 Manjaro ARM is a bit slower than Droidian and it has the same known issues.
 
 ### Install
-1. Download ```Manjaro-ARM-phosh-halium-9.zip``` or ```Manjaro-ARM-nemomobile-halium-9.zip``` from https://github.com/manjaro-libhybris/image-ci/releases
+1. Download ```Manjaro-ARM-phosh-google-sargo-9.zip``` or ```Manjaro-ARM-nemomobile-google-sargo-9.zip``` from https://github.com/manjaro-libhybris/image-ci/releases
 2. Download the Sargo files for Manjaro ARM from https://github.com/giovannicaligaris/linux-pixel-3a/releases/tag/v1
 3. Add your ```twrp.img``` inside the downloaded folder
 4. Run ```./flash-all.sh```
 5. Head to ```Advanced``` and sideload Manjaro-ARM-*.zip
-6. ```adb sideload Manjaro-ARM-**-halium-9-**.zip```
+6. ```adb sideload Manjaro-ARM-**-google-sargo-9-**.zip```
 7. Sideload might get stuck at 47%, just wait patiently
 8. Reboot the phone after sideloading
 9. Password: ```123456```
