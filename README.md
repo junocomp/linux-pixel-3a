@@ -128,31 +128,6 @@ Manjaro ARM is a bit slower than Droidian and it has the same known issues.
 11. Reboot the phone after sideloading
 12. Password: ```123456```
 
-### Adjust Resolution
-Make sure your phone is connected to a USB cable.
-
-```ssh manjaro@10.15.19.82```
-<br>```sudo nano /usr/share/phosh/phoc.ini```
-
-Add 
-
-```[output:HWCOMPOSER-1]```
-<br>```scale = 3```
-
-Save, exit and reboot
-
-```sudo reboot -f```
-
-### Updating
-For some reason Manjaro does not seem to remember repo keys and it won't allow to update or install packages. Install the following:
-
-```sudo pacman-key --init && sudo pacman-key --populate```
-<br>```sudo pacman -S gnupg archlinuxarm-keyring yay libpamac-flatpak-plugin iio-sensor-proxy iio-utils libhandy```
-
-If keeps asking for GNUPG keys, just repopulate and try to install the packages that you need
-
-```sudo pacman-key --init && sudo pacman-key --populate```
-
 ### Join Manjaro-ARM on Telegram
 https://t.me/manjaroonhalium
 
