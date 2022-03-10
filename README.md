@@ -35,8 +35,8 @@ You will need to flash Android on both A & B partitions. Open the terminal insid
 8. Follow steps 2 to 5 again
 
 ## Droidian
-<p>Download the following files from https://github.com/droidian-images/rootfs-api28gsi-all/releases
-<br> This will install Debian Bullseye</p>
+<p>Download the following files from https://github.com/droidian-images/rootfs-api28gsi-all/releases/tag/nightly
+<br> This will install Debian Bookworm</p>
 
 1. droidian-rootfs-api28gsi-arm64.zip
 2. droidian-devtools-arm64.zip
@@ -67,31 +67,6 @@ It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>dr
 It is recommended to setup SSH right after connecting to WIFI. Make sure your phone is connected with a USB cable.
 
 ```ssh droidian@10.15.19.82```
-
-### Upgrading to Bookworm
-As of now there are no images for Bookworm (coming soon). Is recommended to upgrade from Bullseye.
-
-1. Ensure your system is up-to-date (you can use the Software app)
-2. Install the ```droidian-upgrade-bookworm``` package:
-
-```sudo apt install droidian-upgrade-bookworm```
-
-3. Fetch the new repositories:
-
-```sudo apt update```
-<br>```sudo apt upgrade```
-
-4. Finally, do a standard dist-upgrade (note: it would be best doing this on-device):
-
-```sudo apt update```
-<br>```sudo apt dist-upgrade```
-
-5. Clean up and reboot
-
-```sudo apt clean```
-<br>```sudo reboot -f```
-
-6. Once the system reboots, open the Software app, go to the Updates tab -> Search for updates again -> Install the remaining updates
 
 ### Known Issues
 1. Camera & Flashlight do not work
