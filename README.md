@@ -72,14 +72,23 @@ It is recommended to setup SSH right after connecting to WIFI. Make sure your ph
 If you lockscreen freezes after powering off the display (button) or from suspend. Then you need to replace android-rootfs.img
 
 ```sudo apt install git curl```
+
 ```rm /var/lib/lxc/android/android-rootfs.img```
+
 ```cd /tmp```
+
 ```git clone https://github.com/droidian-devices/android-system-google-sargo-bin.git```
+
 ```cd android-system-google-sargo-bin```
+
 ```./download.sh```
+
 ```cp downloaded_artifacts/android-rootfs.img /var/lib/lxc/android```
+
 ```cd ..```
+
 ```rm -R android-system-google-sargo-bin```
+
 Restart the phone.
 
 ### Known Issues
