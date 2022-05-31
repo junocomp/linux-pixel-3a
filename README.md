@@ -32,15 +32,14 @@ You will need to flash Android on both A & B partitions. Open the terminal insid
 5. This will take a few minutes and it will then boot into Android. There is no need to setup the phone. Just go back into the bootloader by holding hold ```Volume Down + Power```
 6. Flash A partition
 7. ```fastboot -aa```
-8. Follow steps 2 to 5 again
+8. Follow steps 3 to 5 again
 
 ## Droidian
 <p>Download the following files from https://github.com/droidian-images/rootfs-api28gsi-all/releases/tag/nightly
 <br> This will install Debian Bookworm</p>
 
 1. droidian-rootfs-api28gsi-arm64.zip
-2. droidian-devtools-arm64.zip
-3. droidian-adaptation-google-sargo-arm64.zip
+2. droidian-adaptation-google-sargo-arm64.zip
 
 It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>droidian-rootfs-api28gsi-arm64.zip.</b> Double click on the zip and enter inside the file <b>setup.sh.</b> Replace <b>8GB to 48GB.</b> Save and close the file. Then press <b>Update.</b> Make sure to do this everytime you download the latest droidian-rootfs-api28gsi-arm64.zip.
 
@@ -57,7 +56,7 @@ It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>dr
 5. Wait until it TWRP boots
 6. ```adb push droidian-* /tmp```
 7. On TWRP head to ```Install - SD CARD (Up a Level) - tmp```
-8. Flash the files in this order: ```droidian-rootfs``` ```droidian-devtools``` ```droidian-adaptation```
+8. Flash the files in this order: ```droidian-rootfs``` ```droidian-adaptation```
 9. When is done reboot ```slot A```
 10. The phone will restart 2 or 3 times. 
 11. Password: ```1234```
