@@ -54,13 +54,12 @@ It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>dr
 3. ```fastboot format:ext4 userdata```
 4. ```fastboot boot twrp.img```
 5. Wait until it TWRP boots
-6. ```adb push droidian-* /tmp```
-7. On TWRP head to ```Install - SD CARD (Up a Level) - tmp```
-8. Flash the files in this order: ```droidian-rootfs``` ```droidian-adaptation```
-9. When is done reboot ```slot A```
-10. The phone will restart 2 or 3 times. 
-11. Password: ```1234```
-12. Open Software and upgrade system.
+6. Go into Advance and ADB Sideload
+7. ```adb sideload droidian-rootfs-*.zip``` then sideload ```droidian-adaptation-*.zip```
+8. When is done reboot ```slot A```
+9. The phone will restart 2 or 3 times. 
+10. Password: ```1234```
+11. Open Software and upgrade system.
    
 ### SSH
 It is recommended to setup SSH right after connecting to WIFI. Make sure your phone is connected with a USB cable.
