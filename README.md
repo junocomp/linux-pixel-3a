@@ -41,7 +41,7 @@ You will need to flash Android on both A & B partitions. Open the terminal insid
 1. droidian-rootfs-api28gsi-arm64.zip
 2. droidian-adaptation-google-sargo-arm64.zip
 
-It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>droidian-rootfs-api28gsi-arm64.zip.</b> Double click on the zip and enter inside the file <b>setup.sh.</b> Replace <b>8GB to 48GB.</b> Save and close the file. Then press <b>Update.</b> Make sure to do this everytime you download the latest droidian-rootfs-api28gsi-arm64.zip.
+It is recommended to expand the rootfs size from <b>8GB to 48GB</b> inside <b>droidian-rootfs-api28gsi-arm64.zip.</b> Double click on the zip and enter inside the file <b>setup.sh.</b> Replace <b>8GB to 48GB.</b> Save and close the file. Then press <b>Update.</b> Make sure to do this everytime you download the latest droidian-rootfs-api28gsi-arm64.zip. `vim` can enable easier editing of the `zip` file without causing any error. Navigate to command prompt with vim, ```vim droidian-filename```, move the cursor to `setup.sh` and edit the line ```resize2fs -f /data/rootfs.img 48G```
 
 <b>ATTENTION: If you are using Ubuntu 20.04 you will need the latest fastboot, otherwise you won't be able to flash Droidian. </b>
 1. Download SDK Platform Tools for Linux from https://developer.android.com/studio/releases/platform-tools
